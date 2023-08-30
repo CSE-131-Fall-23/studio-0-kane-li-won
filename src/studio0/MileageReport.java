@@ -8,8 +8,8 @@ public class MileageReport {
 		int car3miles = 900;
 		
 		int totalMiles = car1miles + car2miles + car3miles;
-		double milesPerGallon = 24.5;
-		double totalGallons = totalMiles / milesPerGallon;
+		double GallonPerMiles= 24.5;
+		double totalGallons = totalMiles * GallonPerMiles;
 		double pricePerGallon = 3.05;
 		double totalPrice = totalGallons * pricePerGallon;
 		
